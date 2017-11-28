@@ -10,9 +10,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
-
-
-//AngularFireModule.initializeApp(environment.firebase, 'firebaseConfig'),
+import { EspeciesComponent } from './components/especies/especies.component';
+import { FiclinicaComponent } from './components/fichaclinica/ficlinica.component';
 
 @NgModule({
 	declarations: [
@@ -21,7 +20,9 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 		NavigationComponent,
 		TopNavbarComponent,
 		HomeComponent,
-		FormularioComponent
+		FormularioComponent,
+		EspeciesComponent,
+		FiclinicaComponent
 	],
 	imports: [
 		BrowserModule,
