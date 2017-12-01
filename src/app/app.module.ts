@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routing, appRoutingProviders } from "./app.routes";
 import { AppComponent } from './app.component';
+import { MainComponent } from './components/main/main.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
@@ -16,6 +17,7 @@ import { FiclinicaComponent } from './components/fichaclinica/ficlinica.componen
 @NgModule({
 	declarations: [
 		AppComponent,
+		MainComponent,
 		LoginComponent,
 		NavigationComponent,
 		TopNavbarComponent,

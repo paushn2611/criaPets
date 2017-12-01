@@ -1,1 +1,107 @@
-Componente Login
+<body>
+    <div class="page-signin-modal modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="box m-a-0">
+                    <div class="box-row">
+                        <div class="box-cell col-md-5 bg-primary p-a-4">
+                            <div class="text-xs-center text-md-left">
+                                <a class="px-demo-brand px-demo-brand-lg" href="index.html">
+                                    <span class="px-demo-logo bg-primary m-t-0">
+                                        <span class="px-nav-icon ion-ios-paw"></span>
+                                    </span>
+                                    <span class="font-size-20 line-height-1">CriaPets</span>
+                                </a>
+                                <div class="font-size-15 m-t-1 line-height-1">Simple. Flexible. Poderoso.</div>
+                            </div>
+                            <ul class="list-group m-t-3 m-b-0 visible-md visible-lg visible-xl">
+                                <li class="list-group-item p-x-0 p-b-0 b-a-0">
+                                    <i class="list-group-icon fa fa-sitemap text-white"></i> Estructura Modular</li>
+                                <li class="list-group-item p-x-0 p-b-0 b-a-0">
+                                    <i class="list-group-icon fa fa-file-text-o text-white"></i> Reportabilidad</li>
+                                <li class="list-group-item p-x-0 p-b-0 b-a-0">
+                                    <i class="list-group-icon fa fa-outdent text-white"></i> Escalable y Extensible</li>
+                                <li class="list-group-item p-x-0 p-b-0 b-a-0">
+                                    <i class="list-group-icon fa fa-heart text-white"></i> Creado con Amor</li>
+                            </ul>
+                        </div>
+
+                        <div class="box-cell col-md-7">
+
+                            <!-- Sign In form -->
+                            <div *ngIf="view" class="animated fadeInLeft">
+                                <form action="index.html" class="p-a-4" id="page-signin-form">
+                                    <h4 class="m-t-0 m-b-4 text-xs-center font-weight-semibold">Ingresar a tu cuenta</h4>
+
+                                    <fieldset class="page-signin-form-group form-group form-group-lg">
+                                        <div class="page-signin-icon text-muted">
+                                            <i class="ion-person"></i>
+                                        </div>
+                                        <input type="text" class="page-signin-form-control form-control" placeholder="Usuario o Email">
+                                    </fieldset>
+
+                                    <fieldset class="page-signin-form-group form-group form-group-lg">
+                                        <div class="page-signin-icon text-muted">
+                                            <i class="ion-asterisk"></i>
+                                        </div>
+                                        <input type="password" class="page-signin-form-control form-control" placeholder="Contraseña">
+                                    </fieldset>
+
+                                    <div class="clearfix">
+                                        <label class="custom-control custom-checkbox pull-xs-left">
+                                            <input type="checkbox" class="custom-control-input">
+                                            <span class="custom-control-indicator"></span>
+                                            Recuerdame
+                                        </label>
+                                        <a (click)="changeView(false)" class="font-size-12 text-muted pull-xs-right link-style" id="page-signin-forgot-link">¿Olvido su Contraseña?</a>
+                                    </div>
+
+                                    <a [routerLink]="['/main']" class="btn btn-block btn-lg btn-primary m-t-3">Entrar</a>
+                                </form>
+
+                                <div class="p-y-3 p-x-4 b-t-1 bg-white darken" id="page-signin-social">
+                                    <a href="index.html" class="btn btn-block btn-lg btn-info font-size-13">
+                                        <span class="btn-label-icon left fa fa-twitter"></span>Entrar con
+                                        <strong>Twitter</strong>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- / Sign In form -->
+
+                            <!-- Reset form -->
+
+                            <div *ngIf="!view" class="animated fadeInLeft">
+                                <form action="index.html" class="p-a-4" id="page-signin-forgot-form">
+                                    <h4 class="m-t-0 m-b-4 text-xs-center font-weight-semibold">Resetear Contraseña</h4>
+
+                                    <fieldset class="page-signin-form-group form-group form-group-lg">
+                                        <div class="page-signin-icon text-muted">
+                                            <i class="ion-at"></i>
+                                        </div>
+                                        <input type="email" class="page-signin-form-control form-control" placeholder="Tu Email">
+                                    </fieldset>
+
+                                    <button type="submit" class="btn btn-block btn-lg btn-primary m-t-3">Enviar link para resetear Contraseña</button>
+                                    <div class="m-t-2 text-muted">
+                                        <a (click)="changeView(true)" id="page-signin-forgot-back" class="link-style">&larr; Volver</a>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- / Reset form -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-xs-center m-t-2 font-weight-bold font-size-14 text-white" id="px-demo-signup-link">
+                ¿No tienes cuenta?
+                <a href="pages-signup-v1.html" class="text-white">
+                    <u>Registrarse</u>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
