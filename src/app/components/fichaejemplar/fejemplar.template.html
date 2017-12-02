@@ -1,11 +1,11 @@
 <div class="panel">
     <div class="panel-heading">
-        <div class="panel-title">Ficha Clinica</div>
+        <div class="panel-title">Ficha Ejemplar</div>
         <div class="page-header">
             <h1>
                 <span class="text-muted font-weight-light">
                     <i class="page-header-icon ion-android-checkbox-outline"></i>
-                </span>Ficha Clínica</h1>
+                </span>Ficha Ejemplar</h1>
         </div>
         <div class="col-md-12">
             <div class="panel">
@@ -62,103 +62,40 @@
                                 <input type="text" id="grid-input-19" class="form-control">
                             </div>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-12">
-            <div class="panel">
-                <div class="panel-heading">
-                    <div class="panel-title">Datos Propietario</div>
-                </div>
-                <div class="panel-body">
-                    <form>
                         <div class="row">
                             <div class="col-sm-4 form-group">
-                                <label for="grid-input-16">Nombre:</label>
-                                <input type="text" id="grid-input-16" class="form-control">
+                                <label for="grid-input-18">Estado:</label>
+                                <select class="form-control" id="grid-input-2">
+                                    <option>Seleccione...</option>
+                                    <option>Disponible</option>
+                                    <option>Reservado a</option>
+                                    <option>Vendido a</option>
+                                    <option>Recría</option>
+                                    <option>Muerto</option>
+                                </select>
                             </div>
                             <div class="col-sm-4 form-group">
-                                <label for="grid-input-17">Apellido:</label>
-                                <input type="text" id="grid-input-17" class="form-control">
-                            </div>
-                            <div class="col-sm-4 form-group">
-                                <label for="grid-input-17">Rut:</label>
-                                <input type="text" id="grid-input-17" class="form-control">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4 form-group">
-                                <label for="grid-input-18">Telefono/Celular:</label>
-                                <input type="text" id="grid-input-19" class="form-control">
-                            </div>
-                            <div class="col-sm-4 form-group">
-                                <label for="grid-input-19">Correo electronico:</label>
-                                <input type="text" id="grid-input-19" class="form-control">
-                            </div>
-                            <div class="col-sm-4 form-group">
-                                <label for="grid-input-19">Dirección:</label>
+                                <label for="grid-input-19">Edad:</label>
                                 <input type="text" id="grid-input-19" class="form-control">
                             </div>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-12">
-            <div class="panel">
-                <div class="panel-heading">
-                    <div class="panel-title">revisar</div>
-                </div>
-                <div class="panel-body">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Vacunas</th>
-                                <th>Desparacitaciones internas</th>
-                                <th>Desparacitaciones externas</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12">
-            <div class="panel">
-                <div class="panel-heading">
-                    <div class="panel-title">Grid</div>
-                </div>
-                <div class="panel-body">
-                    <form>
                         <div class="row">
                             <div class="col-sm-6 form-group">
-                                <label for="grid-input-20">Enfermedades:</label>
+                                <label for="grid-input-20">Títulos:</label>
                                 <textarea id="grid-input-20" class="form-control"></textarea>
                             </div>
-                            <div class="col-sm-6 form-group">
-                                <label for="grid-input-20">Tratamiento:</label>
-                                <textarea id="grid-input-20" class="form-control"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 form-group">
-                                <label for="grid-input-20">Observaciones:</label>
-                                <textarea id="grid-input-20" class="form-control"></textarea>
-                            </div>
+                            <div class="form-group">
+                                <label for="grid-input-3" class="col-md-3 control-label">Subir foto:</label>
+                                <div class="col-md-6">
+                                  <input type="file" class="form-control-file" id="grid-input-3">
+                                </div>
+                              </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+
+
     </div>
 </div>
