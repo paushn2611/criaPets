@@ -13,6 +13,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 import { EspeciesComponent } from './components/especies/especies.component';
 import { FiclinicaComponent } from './components/fichaclinica/ficlinica.component';
 import { FiejemplarComponent } from './components/fichaejemplar/fiejemplar.component';
+import { FipropietarioComponent } from './components/fichapropietario/fipropietario.component';
+import { FicamadaComponent } from './components/fichacamadas/ficamada.component';
 
 @NgModule({
 	declarations: [
@@ -24,7 +26,9 @@ import { FiejemplarComponent } from './components/fichaejemplar/fiejemplar.compo
 		FormularioComponent,
 		EspeciesComponent,
 		FiclinicaComponent,
-		FiejemplarComponent
+		FiejemplarComponent,
+		FipropietarioComponent,
+		FicamadaComponent
 
 	],
 	imports: [

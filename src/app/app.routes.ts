@@ -9,6 +9,8 @@ import { FormularioComponent } from "./components/formulario/formulario.componen
 import { EspeciesComponent } from "./components/especies/especies.component";
 import { FiclinicaComponent } from "./components/fichaclinica/ficlinica.component";
 import { FiejemplarComponent } from "./components/fichaejemplar/fiejemplar.component";
+import { FipropietarioComponent } from "./components/fichapropietario/fipropietario.component";
+import { FicamadaComponent } from "./components/fichacamadas/ficamada.component";
 
 const appRoutes: Routes = [
     { path: "", component: HomeComponent },
@@ -18,6 +20,8 @@ const appRoutes: Routes = [
     { path: "especies", component: EspeciesComponent },
     { path: "fclinica", component: FiclinicaComponent},
     { path: "fejemplar", component: FiejemplarComponent},
+    { path: "fpropietario", component: FipropietarioComponent},
+    { path: "fcamada", component: FicamadaComponent},
     { path: "**", component: HomeComponent }
 ];
 
