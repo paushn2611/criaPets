@@ -5,12 +5,25 @@
             <h1>
                 <span class="text-muted font-weight-light">
                     <i class="page-header-icon ion-android-checkbox-outline"></i>
-                </span>Ficha Clínica</h1>
+                </span>Nueva ficha clínica</h1>
         </div>
+
+        <div class="col-md-12">
+            <div class="row">
+
+                <div class=" form-group text-right col-sm-12">
+                    <label for="grid-input-16">N°ficha:</label>
+                    <input type="text" id="grid-input-16" class="text-right" disabled="">
+                </div>
+
+            </div>
+        </div>
+
         <div class="col-md-12">
             <div class="panel">
                 <div class="panel-heading">
                     <div class="panel-title">Datos ejemplar</div>
+
                 </div>
                 <div class="panel-body">
                     <form>
@@ -25,8 +38,9 @@
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label for="grid-input-17">Fecha de nacimiento:</label>
-                                <input type="text" id="grid-input-17" class="form-control">
+                                <input type="date" id="grid-input-17" class="form-control">
                             </div>
+                           
                         </div>
                         <div class="row">
                             <div class="col-sm-4 form-group">
@@ -65,6 +79,14 @@
                                 <input type="text" id="grid-input-19" class="form-control">
                             </div>
                         </div>
+
+                        <div class="row">
+                        <div class="col-sm-4 form-group">
+                            <label for="grid-input-17">Edad:</label>
+                            <input type="text" id="grid-input-17" class="form-control">
+                        </div>
+                        </div>
+
                     </form>
                 </div>
             </div>
@@ -98,7 +120,7 @@
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label for="grid-input-19">Correo electronico:</label>
-                                <input type="text" id="grid-input-19" class="form-control">
+                                <input type="email" id="grid-input-19" class="form-control">
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label for="grid-input-19">Dirección:</label>
@@ -113,15 +135,15 @@
         <div class="col-md-12">
             <div class="panel">
                 <div class="panel-heading">
-                    <div class="panel-title">revisar</div>
+                    <div class="panel-title">Vacunas</div>
                 </div>
                 <div class="panel-body">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th>Vacunas</th>
-                                <th>Desparacitaciones internas</th>
-                                <th>Desparacitaciones externas</th>
+                                <th>Fecha</th>
+                                <th>Vacuna</th>
+                                <th>Próximo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -134,8 +156,112 @@
                         </tbody>
                     </table>
                 </div>
+
+                <form class="form-inline text-center">
+                    <div class="form-group ">
+                        <label for="form-inline-input-5">Fecha:</label>
+                        <input type="date" id="grid-input-17" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-inline-input-6">Vacuna:</label>
+                        <input type="text" id="grid-input-17" class="form-control">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </form>
+
             </div>
         </div>
+
+        <div class="col-md-12">
+            <div class="panel">
+                <div class="panel-heading">
+                    <div class="panel-title">Desparacitaciones internas</div>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Peso</th>
+                                <th>Aplicación</th>
+                                <th>Próximo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <form class="form-inline text-center">
+                    <div class="form-group ">
+                        <label for="form-inline-input-5">Fecha:</label>
+                        <input type="date" id="grid-input-17" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-inline-input-6">Peso:</label>
+                        <input type="text" id="grid-input-17" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-inline-input-6">Aplicación:</label>
+                        <input type="text" id="grid-input-17" class="form-control">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="panel">
+                <div class="panel-heading">
+                    <div class="panel-title">Desparacitaciones externas</div>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Aplicación</th>
+                                <th>Próximo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+                <form class="form-inline text-center">
+                    <div class="form-group ">
+                        <label for="form-inline-input-5">Fecha:</label>
+                        <input type="date" id="grid-input-17" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-inline-input-6">Aplicación:</label>
+                        <input type="text" id="grid-input-17" class="form-control">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </form>
+
+            </div>
+        </div>
+
         <div class="col-md-12">
             <div class="panel">
                 <div class="panel-heading">
@@ -157,6 +283,12 @@
                             <div class="col-sm-12 form-group">
                                 <label for="grid-input-20">Observaciones:</label>
                                 <textarea id="grid-input-20" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="panel-footer text-right">
+                                <button type="button" class="btn btn-lg btn-primary btn-rounded ">Guardar</button>
+                                <button type="button" class="btn btn-secondary btn btn-lg btn-outline btn-outline-colorless btn-rounded">Cancelar</button>
                             </div>
                         </div>
                     </form>
