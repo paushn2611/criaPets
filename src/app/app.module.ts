@@ -31,6 +31,7 @@ import { EditarclinicaComponent } from './components/editarclinica/editarclinica
 import { EditarejemplarComponent } from './components/editarejemplar/editarejemplar.component';
 import { EditarpropietarioComponent } from './components/editarpropietario/editarpropietario.component';
 import { EditarservicioComponent } from './components/editarservicio/editarservicio.component';
+import { FireservaComponent } from './components/fichareserva/fireserva.component';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import { EditarservicioComponent } from './components/editarservicio/editarservi
 		FiejemplarComponent,
 		FipropietarioComponent,
 		FicamadaComponent,
+		FireservaComponent,
 		FiserviciosComponent,
 		InicioejemplarComponent,
 		IniciopropietarioComponent,

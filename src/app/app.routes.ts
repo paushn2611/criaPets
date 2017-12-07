@@ -27,6 +27,7 @@ import { EditarclinicaComponent } from "./components/editarclinica/editarclinica
 import { EditarpropietarioComponent } from "./components/editarpropietario/editarpropietario.component";
 import { EditarejemplarComponent } from "./components/editarejemplar/editarejemplar.component";
 import { EditarcamadaComponent } from "./components/editarcamada/editarcamada.component";
+import { FireservaComponent } from "./components/fichareserva/fireserva.component";
 
 
 const appRoutes: Routes = [
@@ -39,6 +40,7 @@ const appRoutes: Routes = [
     { path: "fejemplar", component: FiejemplarComponent},
     { path: "fpropietario", component: FipropietarioComponent},
     { path: "fcamada", component: FicamadaComponent},
+    { path: "freserva", component: FireservaComponent},
     { path: "fservicios", component: FiserviciosComponent},
     { path: "inicioejem", component: InicioejemplarComponent},
     { path: "inicioprop", component: IniciopropietarioComponent},
