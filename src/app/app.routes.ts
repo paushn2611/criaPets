@@ -11,7 +11,7 @@ import { EspeciesComponent } from "./components/especies/especies.component";
 import { FiclinicaComponent } from "./components/fichaclinica/ficlinica.component";
 
 const appRoutes: Routes = [
-    { path: "", component: LoginComponent },
+    { path: "", component: HomeComponent },
     { path: "main", component: MainComponent },
     { path: "login", component: LoginComponent },
     { path: "home", component: HomeComponent },
