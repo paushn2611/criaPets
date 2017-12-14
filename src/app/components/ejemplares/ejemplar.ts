@@ -1,4 +1,4 @@
-export class Fejemplar {
+export class Ejemplar {
     constructor (
         public nombre:string
     ){}

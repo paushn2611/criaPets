@@ -1,19 +1,26 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//Librerias
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routing, appRoutingProviders } from "./app.routes";
 import { AppComponent } from './app.component';
+import { DataTablesModule } from 'angular-datatables';
+
+//Componentes Genericos
 import { MainComponent } from './components/main/main.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
 import { HomeComponent } from './components/home/home.component';
+
+//Componentes Personalizados
+import { EjemplaresComponent } from './components/ejemplares/ejemplares.component';
+
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { EspeciesComponent } from './components/especies/especies.component';
 import { FiclinicaComponent } from './components/fichaclinica/ficlinica.component';
-import { FiejemplarComponent } from './components/fichaejemplar/fiejemplar.component';
 import { FipropietarioComponent } from './components/fichapropietario/fipropietario.component';
 import { FicamadaComponent } from './components/fichacamadas/ficamada.component';
 import { FiserviciosComponent } from './components/fichaservicios/fiservicios.component';
@@ -45,9 +52,10 @@ import { UsuariosComponent } from './components/usuarios/usuarios.component';
 		TopNavbarComponent,
 		HomeComponent,
 		FormularioComponent,
+		//Componentes Personalizados
 		EspeciesComponent,
 		FiclinicaComponent,
-		FiejemplarComponent,
+		EjemplaresComponent,
 		FipropietarioComponent,
 		FicamadaComponent,
 		FireservaComponent,
@@ -73,7 +81,8 @@ import { UsuariosComponent } from './components/usuarios/usuarios.component';
 		BrowserModule,
 		FormsModule,
 		HttpModule,
-		routing
+		routing,
+		DataTablesModule
 	],
 	providers: [appRoutingProviders],
 	bootstrap: [AppComponent]

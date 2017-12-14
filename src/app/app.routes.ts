@@ -8,8 +8,10 @@ import { MainComponent } from "./components/main/main.component";
 import { HomeComponent } from "./components/home/home.component";
 import { FormularioComponent } from "./components/formulario/formulario.component";
 import { EspeciesComponent } from "./components/especies/especies.component";
+
+import { EjemplaresComponent } from "./components/ejemplares/ejemplares.component";
+
 import { FiclinicaComponent } from "./components/fichaclinica/ficlinica.component";
-import { FiejemplarComponent } from "./components/fichaejemplar/fiejemplar.component";
 import { FipropietarioComponent } from "./components/fichapropietario/fipropietario.component";
 import { FicamadaComponent } from "./components/fichacamadas/ficamada.component";
 import { FiserviciosComponent } from "./components/fichaservicios/fiservicios.component";
@@ -39,7 +41,7 @@ const appRoutes: Routes = [
     { path: "formulario", component: FormularioComponent },
     { path: "especies", component: EspeciesComponent },
     { path: "fclinica", component: FiclinicaComponent},
-    { path: "fejemplar", component: FiejemplarComponent},
+    { path: "ejemplares", component: EjemplaresComponent},
     { path: "fpropietario", component: FipropietarioComponent},
     { path: "fcamada", component: FicamadaComponent},
     { path: "freserva", component: FireservaComponent},
