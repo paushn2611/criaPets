@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { EspeciesComponent } from './components/especies/especies.component';
 import { FiclinicaComponent } from './components/fichaclinica/ficlinica.component';
+import { UsuariosComponent } from './components/usuarios/usuarios.component';
 
 @NgModule({
 	declarations: [
@@ -22,7 +23,8 @@ import { FiclinicaComponent } from './components/fichaclinica/ficlinica.componen
 		HomeComponent,
 		FormularioComponent,
 		EspeciesComponent,
-		FiclinicaComponent
+		FiclinicaComponent,
+		UsuariosComponent
 	],
 	imports: [
 		BrowserModule,

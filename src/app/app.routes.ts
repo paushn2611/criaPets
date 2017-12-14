@@ -8,6 +8,7 @@ import { HomeComponent } from "./components/home/home.component";
 import { FormularioComponent } from "./components/formulario/formulario.component";
 import { EspeciesComponent } from "./components/especies/especies.component";
 import { FiclinicaComponent } from "./components/fichaclinica/ficlinica.component";
+import { UsuariosComponent } from "./components/usuarios/usuarios.component";
 
 const appRoutes: Routes = [
     { path: "", component: HomeComponent },
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
     { path: "formulario", component: FormularioComponent },
     { path: "especies", component: EspeciesComponent },
     { path: "fclinica", component: FiclinicaComponent},
+    { path: "usuarios", component: UsuariosComponent},
     { path: "**", component: HomeComponent }
 ];
 
