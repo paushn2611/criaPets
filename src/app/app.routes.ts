@@ -29,7 +29,7 @@ import { EditarpropietarioComponent } from "./components/editarpropietario/edita
 import { EditarejemplarComponent } from "./components/editarejemplar/editarejemplar.component";
 import { EditarcamadaComponent } from "./components/editarcamada/editarcamada.component";
 import { FireservaComponent } from "./components/fichareserva/fireserva.component";
-
+import { UsuariosComponent } from "./components/usuarios/usuarios.component";
 
 const appRoutes: Routes = [
     { path: "", component: HomeComponent },
@@ -59,7 +59,7 @@ const appRoutes: Routes = [
     { path: "ediprop", component: EditarpropietarioComponent},
     { path: "ediejem", component: EditarejemplarComponent},
     { path: "edicam", component: EditarcamadaComponent},
-
+    { path: "usuarios", component: UsuariosComponent},
     { path: "**", component: HomeComponent }
 ];
 

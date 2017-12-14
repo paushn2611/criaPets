@@ -33,6 +33,7 @@ import { EditarejemplarComponent } from './components/editarejemplar/editarejemp
 import { EditarpropietarioComponent } from './components/editarpropietario/editarpropietario.component';
 import { EditarservicioComponent } from './components/editarservicio/editarservicio.component';
 import { FireservaComponent } from './components/fichareserva/fireserva.component';
+import { UsuariosComponent } from './components/usuarios/usuarios.component';
 
 
 @NgModule({
@@ -65,9 +66,8 @@ import { FireservaComponent } from './components/fichareserva/fireserva.componen
 		EditarclinicaComponent,
 		EditarejemplarComponent,
 		EditarpropietarioComponent,
-		EditarservicioComponent
-	
-
+		EditarservicioComponent,
+		UsuariosComponent
 	],
 	imports: [
 		BrowserModule,
